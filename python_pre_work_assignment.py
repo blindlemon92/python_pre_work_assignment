@@ -1,8 +1,8 @@
 # Python Prework Assignment
 # Jessie Baker - bakerjessie54@yahoo.com
 
-question_one: 
-writing a fn to print "hello_USERNAME!"
+# question_one: 
+# writing a fn to print "hello_USERNAME!"
 
 def hello_name(user_name):
     print(f'"hello_{user_name}!"')
