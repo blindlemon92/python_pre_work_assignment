@@ -9,6 +9,20 @@ def hello_name(user_name):
 
 hello_name('USERNAME')
 
+#here is a fun interactive version,
+#although technically not what was asked for
+
+def hello_name(name='USERNAME'):
+    while name != 'q':
+        name = input("\nHey! What's your name?\n('q' = quit) ")
+        print(f'"\nhello_{name.upper()}!"')
+        
+    if name == 'q':
+        print("\nThank you come again!")
+
+
+hello_name()
+
 # question_two: 
 # write a fn to print odds from 1-100 and returns nothing
 
@@ -55,7 +69,7 @@ def is_consecutive(a_list):
     else:
         return False
 
-print(is_consecutive(a_list=[1,3,5,7,9,11,4,4,4,8,8,8,10,9,6]))
+print(is_consecutive(a_list=[1,3,5,7,9,11,11,4,4,4,8,8,8,10,9,2,6,6]))
     
 
     
